@@ -34,7 +34,7 @@ function App() {
 
   return (
     <>
-    
+
       <div className='app'>
         <div className='search'>
           <input
@@ -73,8 +73,8 @@ function App() {
               <p>Feels Like</p>
             </div>
             <div className='humidty'>
-              <p>{da.main?da.main.humidity:""}</p>
-              <p>Humidty</p>
+              <p >{da.main?da.main.humidity:""}</p>
+              <p  >Humidty</p>
             </div>
             <div className='wind'>
               <p>{da.main?da.wind.speed:""}</p>

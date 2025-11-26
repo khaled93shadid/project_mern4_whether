@@ -16,6 +16,8 @@ p {
 h1 {
   font-size: 6rem;
 }
+  
+
 
 .app {
   width: 100vw;
@@ -108,10 +110,28 @@ margin-top: 5px;
   padding: 1rem;
   border-radius: 12px;
   background-color: rgba(255, 255, 255, 0.2);
-   margin-bottom: 4rem;
+   margin-bottom: 5rem;
   
 }
 
 .bold {
   font-weight: 600;
+}
+@media screen and (width<600px) {
+  p {
+  font-size: 0.9rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+}
+@media screen and (height<500px) {
+ .app {
+  width: 100vw;
+  height: 110vh;
+ 
+  overflow: hidden;
+}
+
 }
