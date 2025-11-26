@@ -133,5 +133,17 @@ h1 {
  
   overflow: hidden;
 }
+.app:before {
+  content: '';
+  background: url('./assets/sunset-8064078_1280.jpg') no-repeat center center/cover;
+  position: absolute;
+  width: 100vw;
+  height: 110vh;
+  z-index: -1;}
+  .app .bottom {
+  
+   margin-bottom: 10rem;
+  
+}
 
 }
