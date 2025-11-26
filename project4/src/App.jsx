@@ -34,6 +34,7 @@ function App() {
 
   return (
     <>
+    
       <div className='app'>
         <div className='search'>
           <input
@@ -44,8 +45,7 @@ function App() {
             onChange={e => setLocation(e.target.value)}
 
           />
-          <br />
-          <br />
+         
           <button onClick={searchLocation2} className='btn1'>Check Weather</button>
 
         </div>
@@ -81,6 +81,7 @@ function App() {
               <p>Wind</p>
             </div>
           </div>
+          
         </div>
 
 
