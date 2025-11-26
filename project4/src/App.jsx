@@ -40,7 +40,7 @@ function App() {
           <input
             type="text"
             value={location}
-            placeholder='ENTER LOCATION'
+            placeholder='ENTER CITY'
             onKeyDown={searchLocation}
             onChange={e => setLocation(e.target.value)}
 
