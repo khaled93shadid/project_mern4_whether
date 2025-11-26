@@ -21,6 +21,16 @@ function App() {
     }
 
   }
+  const searchLocation2 = async () => {
+    
+      setLoad(true)
+      const res = await axios.get(url)
+      console.log(res.data)
+      setData(res.data)
+      setLoad(false)
+    
+
+  }
 
   return (
     <>
@@ -34,6 +44,9 @@ function App() {
             onChange={e => setLocation(e.target.value)}
 
           />
+          <br />
+          <br />
+          <button onClick={searchLocation2} className='btn1'>Check Weather</button>
 
         </div>
         {load && <p style={{ "textAlign": "center" }}>Loading... </p>}
