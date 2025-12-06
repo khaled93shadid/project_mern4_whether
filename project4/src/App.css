@@ -95,7 +95,7 @@ margin-top: 5px;
 
 .app .description {
   position: relative;
-  right: -90%;
+  right: -101%;
   bottom: 10%;
   transform-origin: 0 0;
   transform: rotate(270deg);
